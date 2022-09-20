@@ -8,3 +8,7 @@ testing in GWAS. The functions are used in calculating restricted maximum likeli
 of the variance parameters as well as MLE of SNP effect size under a typical genetic Linear Mixed Model. 
 For more details on the use of the functions, use help pages. A more detailed decsription of the functions and how they are used in performing GWAS
 are presented in our article: '**Pool-GWAS methods for complex traits**'.
+## Installation 
+`devtools::install_github("bhargob30/gwas")`
+
+`library(gwas)`
