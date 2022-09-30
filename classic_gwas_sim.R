@@ -39,7 +39,7 @@ W=as.matrix(phenotype[["phenoComponentsIntermediate"]][["noiseFixed"]][["cov"]],
 # Run parallelized code to test 10000 hypotheses of association. Result of each hypothesis
 # test is a p value. The calculation of test statistic for the hypotheses requires finding 
 # RMLE and MLE of the parameters in the genetic LMM. There is a optimization step in between which is 
-# done by using `optim` function of R. All the intermediate functions to calculate the MLEs 
+# done by using `nlm` function of R. All the intermediate functions to calculate the MLEs 
 # and the test statistic are available in our package 'gwas'. For more details please 
 # see algorithm 1 in our article as well as the `gwas_manual.pdf` in our github repository.
 # The manual contains detailed description of each of the functions.
